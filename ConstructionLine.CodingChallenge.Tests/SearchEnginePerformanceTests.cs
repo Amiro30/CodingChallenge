@@ -32,7 +32,10 @@ namespace ConstructionLine.CodingChallenge.Tests
 
             var options = new SearchOptions
             {
-                Colors = new List<Color> { Color.Red }
+                Colors = new List<Color> { Color.Red },
+
+                //uncomment in case of sizes
+                //Sizes = new List<Size> { Size.Small }
             };
 
             var results = _searchEngine.Search(options);

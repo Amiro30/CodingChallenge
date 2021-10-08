@@ -11,6 +11,8 @@ namespace ConstructionLine.CodingChallenge
 
 
         public List<ColorCount> ColorCounts { get; set; }
+
+        public bool IsSucceed { get; set; }
     }
 
 
